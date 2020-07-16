@@ -1,0 +1,171 @@
+/*Titles, beginning*/
+h2 {
+  text-align: center;
+}
+/*Titles, end*/
+
+/* Top container contents, beginning----------------------------------*/
+
+/*Chess image container contents, beginning*/
+.imageBorder {
+  text-align: center;
+  display: inline-block;
+  width: 40%;
+  margin-left: 30%;
+  margin-bottom: 2rem;
+}
+
+div p {
+  text-align: center;
+}
+
+.chessCaption {
+  margin: 0;
+}
+
+div img {
+  width: 98%;
+  padding-top: 0.5rem;
+}
+/*Chess image container contents, end*/
+
+/* Paragraph with background element styling, beginning*/
+article {
+  background-image: url('../Images/paragraphImage.jpg');
+  padding: 1em;
+}
+
+article p {
+  font-size: 1.2rem;
+  padding: 2rem;
+  border: 3em solid rgb(255,255,255,.5);
+  margin: 2em;
+  background-clip: padding-box;
+  background-color: white;
+}
+
+.paragraph {
+  width: 48%;
+}
+/* Paragraph with background element styling, end*/
+
+/*Container for table and styled background image elements, beginning*/
+.childContainer {
+  white-space: nowrap;
+  width: 100%;
+}
+
+.childContainer>* {
+  display: inline-block;
+}
+/*Container for table and styled background image elements, end*/
+
+/* Boardgames details table styles, beginning*/
+
+.tableWrap {
+  box-sizing: border-box;
+  position: absolute;
+  width: 47.9%;
+}
+
+.gamesTable {
+  box-sizing: content-box;
+  padding: 1px;
+  border: 0;
+  table-layout: fixed;
+  font-size: 1.2rem;
+}
+
+.gamesTable th {
+  background-color: #935900;
+  color: white;
+}
+
+.gamesTable td,th {
+  border: none;
+  text-align: center;
+}
+
+.gamesTable td {
+  padding: 0.5rem 0.2rem 0.2rem 0.5rem;
+}
+
+.gamesTable td:nth-child(1) {
+  background-color: #ffecc7;
+  white-space:nowrap;
+  width: 35%;
+  text-align: justify;
+}
+
+.gamesTable td:nth-child(2), .gamesTable td:nth-child(4) {
+  background-color: #fdd998;
+  width: 15%;
+}
+
+.gamesTable td:nth-child(5), .gamesTable td:nth-child(7) {
+  background-color: #f5b971;
+  width: 18%;
+}
+
+.gamesTable td:nth-child(3), .gamesTable td:nth-child(6) {
+  margin: 0;
+  padding: 0;
+}
+/* Boardgames details table styles, end*/
+
+.topContainer, .bottomContainer  {
+  border: 3px solid silver;
+  margin: 1rem 2rem 2rem 2rem;
+}
+
+.imageBorder {
+  border: 1px solid silver;
+}
+
+ .paragraph, .tableWrap {
+  border: 1px solid black;
+ }
+
+/* Top container contents, end-----------------------------------------*/
+
+/*Chessboard container, beginning--------------------------------------*/
+
+.chessboardTable  {
+  margin: 0;
+  padding: 0;
+  border-spacing: inherit;
+}
+
+.chessboardBorder {
+   border: 28px solid #935900;
+   max-width: 38%;
+   padding: 1.3rem;
+   margin-left: 28%;
+   margin-bottom: 2rem;
+}
+
+.light {
+  background-color: #fdd998;
+}
+
+.brown {
+   background-color: #935900;
+}
+
+.chessboardWrap {
+   border: 3px solid silver;
+  /* display: inline-table;*/
+}
+
+.chessboardTable td {
+  text-align: center;
+  display: table-cell;
+  font-size: 3.5rem;
+  width: 12rem;
+  padding: 0;
+}
+
+.blankCells {
+   color: transparent;
+}
+/*Chessboard container, end--------------------------------------------*/

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="zoeys practical exercises" content="HTML CSS">
+    <meta name="keywords" content="schaak, schaakspel, spel, CSS, HTML5, schaakbord, spelerlijst, speler, lijst">
+    <meta name="author" content="Zoey(Zosea) Hrapovitcaia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+
+    <title>Schaakspel</title>
+  </head>
+  <body>
+      <!--Top container-main, beginning-->
+      <h1>Speletjes</h1>
+
+      <div class="topContainer">
+
+            <h2>Bordspellen</h2>
+      <!--Introduction, image section, beginning-->
+            <div class="imageBorder">
+                <img src="Images/chesspieces1.jpg"  class="image1" alt="Schaakbord met enkele schaakstukken.">
+                <p  class="chessCaption">Schaakbord met enkele schaakstukken.</p>
+           </div>
+      <!--Introduction, image section, end-->
+
+
+         <div class="childContainer">
+      <!--Paragraph with background, beginning-->
+             <article class="paragraph">
+                <p>Hiernaast staat een lijst van een aantal bordspellen.</p>
+             </article>
+      <!--Paragraph with background, end-->
+
+      <!--Boardgames details table, beginning-->
+           <div class="tableWrap">
+              <table class="gamesTable">
+                 <tr> <!--Row headings-->
+                    <th>Naam</th>
+                    <th colspan="3">Leeftijd ( van tot)</th>
+                    <th colspan="3">Aantal spellers (min max)</th>
+                 </tr>
+
+                 <tbody>
+                    <tr> <!--Monopoly game row-->
+                      <td>Monopoly</td>
+                      <td>8</td>
+                      <td>-</td>
+                      <td>99</td>
+                      <td>2</td>
+                      <td>-</td>
+                      <td>6</td>
+                    </tr>
+                    <tr> <!--30 Seconds game row-->
+                      <td>30 Seconds</td>
+                      <td>8</td>
+                      <td>-</td>
+                      <td>99</td>
+                      <td>3</td>
+                      <td>-</td>
+                      <td>20</td>
+                    </tr>
+                    <tr> <!--De kolonisten van Catan game row-->
+                      <td>De kolonisten van Catan</td>
+                      <td>10</td>
+                      <td>-</td>
+                      <td>99</td>
+                      <td>3</td>
+                      <td>-</td>
+                      <td>4</td>
+                   </tr>
+                   <tr> <!--Levensweg game row-->
+                      <td>Levensweg</td>
+                      <td>6</td>
+                      <td>-</td>
+                      <td>99</td>
+                      <td>2</td>
+                      <td>-</td>
+                      <td>4</td>
+                   </tr>
+                   <tr> <!--Rummikub game row-->
+                      <td>Rummikub</td>
+                      <td>6</td>
+                      <td>-</td>
+                      <td>99</td>
+                      <td>2</td>
+                      <td>-</td>
+                      <td>4</td>
+                  </tr>
+                  <tr> <!--Stratego game row-->
+                      <td>Stratego</td>
+                      <td>8</td>
+                      <td>-</td>
+                      <td>99</td>
+                      <td>2</td>
+                      <td>-</td>
+                      <td>2</td>
+                 </tr>
+                  <tr> <!--Risk game row-->
+                      <td>Risk</td>
+                      <td>10</td>
+                      <td>-</td>
+                      <td>99</td>
+                      <td>2</td>
+                      <td>-</td>
+                      <td>5</td>
+                 </tr>
+                  <tr> <!--Mens erger je niet! game row-->
+                      <td>Mens erger je niet!</td>
+                      <td>6</td>
+                      <td>-</td>
+                      <td>99</td>
+                      <td>2</td>
+                      <td>-</td>
+                      <td>6</td>
+                   </tr>
+                 </tbody>
+               </table>
+             </div>
+    <!--Boardgames details table, end-->
+           </div>
+        </div>
+    <!--Top container-main, end-->
+
+
+    <!--Bottom container, chess game, beginning-->
+        <div class="bottomContainer">
+             <h2>Schaakbord</h2>
+             <div class="chessboardBorder">
+                 <div class="chessboardWrap">
+                     <table class="chessboardTable">
+                         <tr><!--Black chess pieces row-->
+                            <td class="light">&#9820;</td>
+                            <td class="brown">&#9822;</td>
+                            <td class="light">&#9821;</td>
+                            <td class="brown">&#9819;</td>
+                            <td class="light">&#9818;</td>
+                            <td class="brown">&#9821;</td>
+                            <td class="light">&#9822;</td>
+                            <td class="brown">&#9820;</td>
+                         </tr>
+                         <tr><!--Black pawns chess pieces row-->
+                            <td class="brown">&#9823;</td>
+                            <td class="light">&#9823;</td>
+                            <td class="brown">&#9823;</td>
+                            <td class="light">&#9823;</td>
+                            <td class="brown">&#9823;</td>
+                            <td class="light">&#9823;</td>
+                            <td class="brown">&#9823;</td>
+                            <td class="light">&#9823;</td>
+                         </tr>
+                         <tr class="blankCells">
+                            <td class="light">&#9744;</td>
+                            <td class="brown">&#9744;</td>
+                            <td class="light">&#9744;</td>
+                            <td class="brown">&#9744;</td>
+                            <td class="light">&#9744;</td>
+                            <td class="brown">&#9744;</td>
+                            <td class="light">&#9744;</td>
+                            <td class="brown">&#9744;</td>
+                         </tr>
+                         <tr class="blankCells">
+                            <td class="brown">&#9744;</td>
+                            <td class="light">&#9744;</td>
+                            <td class="brown">&#9744;</td>
+                            <td class="light">&#9744;</td>
+                            <td class="brown">&#9744;</td>
+                            <td class="light">&#9744;</td>
+                            <td class="brown">&#9744;</td>
+                            <td class="light">&#9744;</td>
+                         </tr>
+                         <tr class="blankCells">
+                            <td class="light">&#9744;</td>
+                            <td class="brown">&#9744;</td>
+                            <td class="light">&#9744;</td>
+                            <td class="brown">&#9744;</td>
+                            <td class="light">&#9744;</td>
+                            <td class="brown">&#9744;</td>
+                            <td class="light">&#9744;</td>
+                            <td class="brown">&#9744;</td>
+                         </tr>
+                         <tr class="blankCells">
+                            <td class="brown">&#9744;</td>
+                            <td class="light">&#9744;</td>
+                            <td class="brown">&#9744;</td>
+                            <td class="light">&#9744;</td>
+                            <td class="brown">&#9744;</td>
+                            <td class="light">&#9744;</td>
+                            <td class="brown">&#9744;</td>
+                            <td class="light">&#9744;</td>
+                         </tr>
+                         <tr> <!--Light pawns chess pieces row-->
+                            <td class="light">&#9817;</td>
+                            <td class="brown">&#9817;</td>
+                            <td class="light">&#9817;</td>
+                            <td class="brown">&#9817;</td>
+                            <td class="light">&#9817;</td>
+                            <td class="brown">&#9817;</td>
+                            <td class="light">&#9817;</td>
+                            <td class="brown">&#9817;</td>
+                         </tr>
+                         <tr> <!--Light chess pieces row-->
+                            <td class="brown">&#9814;</td>
+                            <td class="light">&#9816;</td>
+                            <td class="brown">&#9815;</td>
+                            <td class="light">&#9813;</td>
+                            <td class="brown">&#9812;</td>
+                            <td class="light">&#9815;</td>
+                            <td class="brown">&#9816;</td>
+                            <td class="light">&#9814;</td>
+                         </tr>
+                     </table>
+                 </div>
+             </div>
+        </div>
+
+    <!--Bottom container, chess game, end-->
+
+    </body>
+  </html>
